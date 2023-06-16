@@ -9,11 +9,6 @@ class ConvertKit::Subscription
   getter referrer : String?
   getter subscribable_id : Int64
   getter subscribable_type : String
-  
-  class Subscriber
-    include JSON::Serializable
-    getter id : Int64
-  end
 
   getter subscriber : Subscriber
 end

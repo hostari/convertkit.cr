@@ -1,5 +1,5 @@
 class ConvertKit::Subscriber
-  def self.update(id : Int64, first_name : String? = nil?, email_address : String? = nil)
+  def self.update(id : Int64, first_name : String? = nil, email_address : String? = nil)
     io = IO::Memory.new
     builder = ParamsBuilder.new(io)
 

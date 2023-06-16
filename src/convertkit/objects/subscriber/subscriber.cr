@@ -12,4 +12,3 @@ class ConvertKit::Subscriber
   getter created_at : Time
   getter fields : JSON::Any
 end
-
