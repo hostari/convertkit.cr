@@ -7,10 +7,10 @@ class ConvertKit::Forms
       builder.add({{x}}, {{x.id}}) unless {{x.id}}.nil?
     {% end %}
 
-    response = ConvertKit.client.put("/v3/forms/#{id}/subscribe", form: io.to_s)
+    response = ConvertKit.client.post("/v3/forms/#{id}/subscribe", form: io.to_s)
 
     if response.status_code == 200
-      ConvertKit::Subscription.from_json(response.body, root: "subcsription")
+      ConvertKit::Subscription.from_json(response.body, root: "subscription")
     else
       raise Exception.new(response.body)
     end

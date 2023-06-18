@@ -1,0 +1,29 @@
+{
+  "tags": [
+      {
+          "id": 3919712,
+          "name": "option 1",
+          "created_at": "2023-06-15T13:08:53.000Z"
+      },
+      {
+          "id": 3919713,
+          "name": "option2",
+          "created_at": "2023-06-15T13:08:56.000Z"
+      },
+      {
+          "id": 3919769,
+          "name": "postman",
+          "created_at": "2023-06-15T13:27:42.000Z"
+      },
+      {
+          "id": 3919765,
+          "name": "test tag from API",
+          "created_at": "2023-06-15T13:26:04.000Z"
+      },
+      {
+          "id": 3919784,
+          "name": "test tag from API2",
+          "created_at": "2023-06-15T13:36:10.000Z"
+      }
+  ]
+}

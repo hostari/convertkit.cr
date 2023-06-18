@@ -1,0 +1,26 @@
+{
+  "total_subscriptions": 1,
+  "page": 1,
+  "total_pages": 1,
+  "subscriptions": [
+      {
+          "id": 6204968295,
+          "state": "active",
+          "created_at": "2023-06-14T02:00:33.000Z",
+          "source": null,
+          "referrer": "",
+          "subscribable_id": 5241392,
+          "subscribable_type": "form",
+          "subscriber": {
+              "id": 2209009344,
+              "first_name": "edit",
+              "email_address": "rafael@hostari.com",
+              "state": "active",
+              "created_at": "2023-06-14T02:00:33.000Z",
+              "fields": {
+                  "favorite_color": null
+              }
+          }
+      }
+  ]
+}

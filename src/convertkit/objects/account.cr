@@ -6,5 +6,6 @@ class ConvertKit::Account
   add_retrieve_method
 
   getter name : String
+  getter plan_type : String
   getter primary_email_address : String
 end

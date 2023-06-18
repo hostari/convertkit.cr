@@ -1,0 +1,19 @@
+{
+  "subscription": {
+      "id": 6173502434,
+      "state": "inactive",
+      "created_at": "2023-06-08T01:57:35.000Z",
+      "source": "API::V3::SubscriptionsController (external)",
+      "referrer": null,
+      "subscribable_id": 5241392,
+      "subscribable_type": "form",
+      "subscriber": {
+          "id": 2198793492,
+          "first_name": "Raf",
+          "email_address": "jc7898592@gmail.com",
+          "state": "inactive",
+          "created_at": "2023-06-08T01:57:35.000Z",
+          "fields": {}
+      }
+  }
+}
