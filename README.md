@@ -37,6 +37,7 @@ ConvertKit::Tags.create({name: "Email Newsletter"})
 
 ## API endpoints
 
+Note that the plural form of the resource is used when retrieving a list (i.e. `Subscribers.retrieve`) and singular form when retrieving a specific item of a resource i.e. `Subscriber.retrieve(id)`
 
 | Method description | Method | HTTP Method | Path |
 |----|---|---|---|
@@ -58,10 +59,10 @@ View a single subscriber | `Subscriber.retrieve(id)` | GET | /v3/subscribers/:su
 Update a subscriber | `Subscriber.update(id, first_name : String? = nil, email_address : String? = nil)` | PUT | /v3/subscribers/:id
 Unsubscribe a subscriber | `Subscriber.unscubscribe(email)` | PUT | /v3/unsubscribe
 List tags for a subscriber | `Subscriber.tags(id)` | GET | /v3/subscribers/:id/tags
-List broadcasts | - | GET | /v3/broadcasts
+List broadcasts | `Broadcasts.list` | GET | /v3/broadcasts
 Create broadcast | - | POST | /v3/broadcasts
-View a broadcast | - | GET | /v3/broadcasts/:id
-Get stats | - | GET | /v3/broadcasts/:id/stats
+View a broadcast | `Broadcast.retrieve(id)` | GET | /v3/broadcasts/:id
+Get stats | `Broadcasts.stats(id)` | GET | /v3/broadcasts/:id/stats
 Update broadcast | - | PUT | /v3/broadcasts/:id
 Delete broadcast | - | DELETE | /v3/broadcasts/:id
 List purchases | - | GET | /v3/purchases
