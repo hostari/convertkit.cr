@@ -1,0 +1,17 @@
+{
+  "broadcast": {
+    "id": 12019088,
+    "stats": {
+      "recipients": 1,
+      "open_rate": 100.0,
+      "click_rate": 0.0,
+      "unsubscribes": 39,
+      "total_clicks": 0,
+      "show_total_clicks": true,
+      "status": "completed",
+      "progress": 100.0,
+      "open_tracking_disabled": false,
+      "click_tracking_disabled": false
+    }
+  }
+}

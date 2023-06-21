@@ -1,0 +1,14 @@
+{
+  "broadcasts": [
+    {
+      "id": 12019088,
+      "created_at": "2023-06-21T04:25:19.000Z",
+      "subject": "Test email blast"
+    },
+    {
+      "id": 12019089,
+      "created_at": "2023-06-21T04:25:19.000Z",
+      "subject": "Hey there"
+    }
+  ]
+}
