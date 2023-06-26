@@ -17,7 +17,7 @@ convertkit.cr is a Crystal API Client for the [ConvertKit API](https://developer
 ## Usage
 
 ```crystal
-require "convertkit.cr"
+require "convertkit"
 
 # Set your API secret
 ConvertKit.api_secret = "api-secret-here"
