@@ -9,7 +9,7 @@ convertkit.cr is a Crystal API Client for the [ConvertKit API](https://developer
    ```yaml
    dependencies:
      convertkit:
-       github: hostari/convertkit.cr
+       github: hostari/convertkit
    ```
 
 2. Run `shards install`
@@ -17,7 +17,7 @@ convertkit.cr is a Crystal API Client for the [ConvertKit API](https://developer
 ## Usage
 
 ```crystal
-require "convertkit.cr"
+require "convertkit"
 
 # Set your API secret
 ConvertKit.api_secret = "api-secret-here"
